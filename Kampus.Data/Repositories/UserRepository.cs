@@ -18,6 +18,12 @@ namespace Kampus.Data.Repositories
             return Save();
         }
 
+        public bool DeleteUser(User user)
+        {
+            _context.Remove(user);
+            return Save();
+        }
+
         public ICollection<Review> GetAllUserReviews(int id)
         {
             return _context.User.Where(u => u.Id == id)
@@ -46,6 +52,17 @@ namespace Kampus.Data.Repositories
         {
             var saved = _context.SaveChanges();
             return saved > 0 ? true : false;
+        }
+
+        public bool UpdateUser(User user)
+        {
+            _context.Update(user);
+            return Save();
+        }
+
+        public bool UserExists(int userID)
+        {
+            return _context.User.Any(u => u.Id == userID);
         }
     }
 }

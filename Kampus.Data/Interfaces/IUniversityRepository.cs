@@ -7,7 +7,10 @@ namespace Kampus.Data.Interfaces
         ICollection<University> GetUniversities();
         University GetUniversityById(int id);
         ICollection<Professor> GetAllProffesorsFormUniversity(int id);
+        bool UniversityExists(int universityId);
         bool CreateUniversity(University university);
+        bool UpdateUniversity(University university);
+        bool DeleteUniversity(University university);
         bool Save();
     }
 }

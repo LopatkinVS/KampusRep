@@ -19,11 +19,28 @@ namespace Kampus.Data.Repositories
             return Save();
         }
 
+        public bool DeleteProfessor(Professor professor)
+        {
+            _context.Remove(professor);
+            return Save();
+        }
+
+        public bool DeleteProfessors(List<Professor> professors)
+        {
+            _context.RemoveRange(professors);
+            return Save();
+        }
+
         public ICollection<Review> GetAllProfessorReviews(int professorId)
         {
             return _context.Professors.Where(p => p.Id == professorId)
                 .SelectMany(r => r.Reviews)
                 .ToList();
+        }
+
+        public Professor GetProfessor(int id)
+        {
+            return _context.Professors.Where(p => p.Id == id).FirstOrDefault();
         }
 
         public ICollection<Professor> GetProfessors()
@@ -38,10 +55,21 @@ namespace Kampus.Data.Repositories
                 .ToList();
         }
 
+        public bool ProfessorExists(int professorId)
+        {
+            return _context.Professors.Any(p => p.Id == professorId);
+        }
+
         public bool Save()
         {
             var saved = _context.SaveChanges();
             return saved > 0 ? true : false;
+        }
+
+        public bool UpdateProfessor(Professor professor)
+        {
+            _context.Update(professor);
+            return Save();
         }
     }
 }

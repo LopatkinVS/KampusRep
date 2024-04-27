@@ -19,6 +19,12 @@ namespace Kampus.Data.Repositories
             return Save();
         }
 
+        public bool DeleteUniversity(University university)
+        {
+            _context.Remove(university);
+            return Save();
+        }
+
         public ICollection<Professor> GetAllProffesorsFormUniversity(int id)
         {
             return _context.Universities.Where(u => u.Id == id)
@@ -41,6 +47,17 @@ namespace Kampus.Data.Repositories
         {
             var saved = _context.SaveChanges();
             return saved > 0 ? true : false;
+        }
+
+        public bool UniversityExists(int universityId)
+        {
+            return _context.Universities.Any(u => u.Id == universityId);
+        }
+
+        public bool UpdateUniversity(University university)
+        {
+            _context.Update(university);
+            return Save();
         }
     }
 }
