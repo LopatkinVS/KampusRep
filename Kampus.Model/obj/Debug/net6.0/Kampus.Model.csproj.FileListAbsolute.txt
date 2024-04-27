@@ -1,0 +1,14 @@
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\bin\Debug\net6.0\Kampus.Model.deps.json
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\bin\Debug\net6.0\Kampus.Model.runtimeconfig.json
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\bin\Debug\net6.0\Kampus.Model.dll
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\bin\Debug\net6.0\Kampus.Model.pdb
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.csproj.AssemblyReference.cache
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.AssemblyInfoInputs.cache
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.AssemblyInfo.cs
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.csproj.CoreCompileInputs.cache
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.dll
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\refint\Kampus.Model.dll
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.pdb
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.genruntimeconfig.cache
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\ref\Kampus.Model.dll
