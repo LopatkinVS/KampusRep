@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\thebr\\source\\repos\\Kampus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.data\\interfaces\\iprofessorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|solutionrelative:kampus.data\\interfaces\\iprofessorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594151B9-1328-4A71-B24E-09DB437D8292}|Kampus.Api\\Kampus.Api.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.api\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594151B9-1328-4A71-B24E-09DB437D8292}|Kampus.Api\\Kampus.Api.csproj|solutionrelative:kampus.api\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.data\\repositories\\professorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|solutionrelative:kampus.data\\repositories\\professorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|solutionrelative:kampus.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,14 +27,6 @@
       "RelativeMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|solutionrelative:kampus.data\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.data\\repositories\\professorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|solutionrelative:kampus.data\\repositories\\professorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.data\\interfaces\\iprofessorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|solutionrelative:kampus.data\\interfaces\\iprofessorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|solutionrelative:kampus.data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.data\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB440020-8A2B-4F80-909F-222C29BFCEC8}|Kampus.Data\\Kampus.Data.csproj|solutionrelative:kampus.data\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{594151B9-1328-4A71-B24E-09DB437D8292}|Kampus.Api\\Kampus.Api.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.api\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{594151B9-1328-4A71-B24E-09DB437D8292}|Kampus.Api\\Kampus.Api.csproj|solutionrelative:kampus.api\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2032476-86FD-44D1-BCE9-8990B3B089A0}|Kampus.BI\\Kampus.BI.csproj|c:\\users\\thebr\\source\\repos\\kampus\\kampus.bi\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,31 +134,30 @@
               "RelativeToolTip": "Kampus.BI\\Helper\\MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:34:49.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T12:34:49.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "ProfessorController.cs",
               "DocumentMoniker": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Api\\Controllers\\ProfessorController.cs",
               "RelativeDocumentMoniker": "Kampus.Api\\Controllers\\ProfessorController.cs",
               "ToolTip": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Api\\Controllers\\ProfessorController.cs",
               "RelativeToolTip": "Kampus.Api\\Controllers\\ProfessorController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAwCcAAAAAAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwFMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T12:11:43.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "IProfessorRepository.cs",
               "DocumentMoniker": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Interfaces\\IProfessorRepository.cs",
               "RelativeDocumentMoniker": "Kampus.Data\\Interfaces\\IProfessorRepository.cs",
               "ToolTip": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Interfaces\\IProfessorRepository.cs",
               "RelativeToolTip": "Kampus.Data\\Interfaces\\IProfessorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T15:26:36.765Z",
               "EditorCaption": ""
@@ -201,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IReviewRepository.cs",
               "DocumentMoniker": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Interfaces\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "Kampus.Data\\Interfaces\\IReviewRepository.cs",
@@ -209,25 +208,24 @@
               "RelativeToolTip": "Kampus.Data\\Interfaces\\IReviewRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T15:19:33.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T15:19:33.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProfessorRepository.cs",
               "DocumentMoniker": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Repositories\\ProfessorRepository.cs",
               "RelativeDocumentMoniker": "Kampus.Data\\Repositories\\ProfessorRepository.cs",
               "ToolTip": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Repositories\\ProfessorRepository.cs",
               "RelativeToolTip": "Kampus.Data\\Repositories\\ProfessorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAABEAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T21:50:27.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IUniversityRepository.cs",
               "DocumentMoniker": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Interfaces\\IUniversityRepository.cs",
               "RelativeDocumentMoniker": "Kampus.Data\\Interfaces\\IUniversityRepository.cs",
@@ -235,12 +233,11 @@
               "RelativeToolTip": "Kampus.Data\\Interfaces\\IUniversityRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T15:10:19.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T15:10:19.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Kampus.Data\\Interfaces\\IUserRepository.cs",
@@ -248,12 +245,11 @@
               "RelativeToolTip": "Kampus.Data\\Interfaces\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T15:04:32.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T15:04:32.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ReviewRepository.cs",
               "DocumentMoniker": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Repositories\\ReviewRepository.cs",
               "RelativeDocumentMoniker": "Kampus.Data\\Repositories\\ReviewRepository.cs",
@@ -261,12 +257,11 @@
               "RelativeToolTip": "Kampus.Data\\Repositories\\ReviewRepository.cs",
               "ViewState": "AQIAADQAAAAAAAAAAAAmwEgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:04:04.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T12:04:04.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UniversityRepository.cs",
               "DocumentMoniker": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Repositories\\UniversityRepository.cs",
               "RelativeDocumentMoniker": "Kampus.Data\\Repositories\\UniversityRepository.cs",
@@ -274,21 +269,19 @@
               "RelativeToolTip": "Kampus.Data\\Repositories\\UniversityRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:20:21.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T12:20:21.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Kampus.Data\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Data\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Kampus.Data\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAkwDwAAAAJAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAA3wDwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:30:57.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T12:30:57.517Z"
             },
             {
               "$type": "Document",
