@@ -127,3 +127,4 @@ C:\Users\thebr\source\repos\Kampus\Kampus.Api\obj\Debug\net6.0\Kampus.Api.pdb
 C:\Users\thebr\source\repos\Kampus\Kampus.Api\obj\Debug\net6.0\ref\Kampus.Api.dll
 C:\Users\thebr\source\repos\Kampus\Kampus.Api\bin\Debug\net6.0\Npgsql.dll
 C:\Users\thebr\source\repos\Kampus\Kampus.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\thebr\source\repos\Kampus\Kampus.Api\obj\Debug\net6.0\Kampus.Api.sourcelink.json

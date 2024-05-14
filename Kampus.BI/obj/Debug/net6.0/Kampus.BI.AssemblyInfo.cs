@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kampus.BI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c64a3f35890f18e56aeeca797a7aa8a22944bb7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90bea6c8d01b34c8c2cd79c5cd7b9dd3dd4976e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kampus.BI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kampus.BI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

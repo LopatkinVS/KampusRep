@@ -17,3 +17,4 @@ C:\Users\thebr\source\repos\Kampus\Kampus.BI\obj\Debug\net6.0\refint\Kampus.BI.d
 C:\Users\thebr\source\repos\Kampus\Kampus.BI\obj\Debug\net6.0\Kampus.BI.pdb
 C:\Users\thebr\source\repos\Kampus\Kampus.BI\obj\Debug\net6.0\Kampus.BI.genruntimeconfig.cache
 C:\Users\thebr\source\repos\Kampus\Kampus.BI\obj\Debug\net6.0\ref\Kampus.BI.dll
+C:\Users\thebr\source\repos\Kampus\Kampus.BI\obj\Debug\net6.0\Kampus.BI.sourcelink.json

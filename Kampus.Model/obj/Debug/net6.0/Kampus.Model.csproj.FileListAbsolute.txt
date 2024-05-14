@@ -12,3 +12,4 @@ C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\refint\Kampus.M
 C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.pdb
 C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.genruntimeconfig.cache
 C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\ref\Kampus.Model.dll
+C:\Users\thebr\source\repos\Kampus\Kampus.Model\obj\Debug\net6.0\Kampus.Model.sourcelink.json
