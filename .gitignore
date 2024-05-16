@@ -1,0 +1,13 @@
+appsettings.Development.json
+Kampus.Api.csproj.user
+launchSettings.json
+.dockerignore
+Dockerfile
+README.Docker.md
+compose.yaml
+Kampus.BI/bin/Debug/net6.0
+Kampus.BI/obj
+.vs/
+wwwroot/
+Properties/
+Kampus/
