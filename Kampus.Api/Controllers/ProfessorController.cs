@@ -56,6 +56,9 @@ namespace Kampus.Api.Controllers
         [ProducesResponseType(400)]
         public IActionResult GetProfessorByUniversity(int universityId)
         {
+            if(!_universityRepository.UniversityExists(universityId))
+                return NotFound();
+
             var professors = _mapper.Map<List<ProfessorDto>>
                 (_professorRepository.GetProfessorsByUniversity(universityId));
 
