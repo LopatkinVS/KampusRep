@@ -11,6 +11,8 @@ using System.Collections.Generic;
 
 namespace Kampus.Api.Controllers
 {
+    [Route("api/[controller]/[action]")]
+    [ApiController]
     public class UniversityController : Controller
     {
         private readonly IUniversityRepository _universityRepository;
@@ -115,11 +117,11 @@ namespace Kampus.Api.Controllers
         [ProducesResponseType(404)]
         public IActionResult UpdateUniversity(int universityId, [FromBody] UniversityDto updatedUniversity)
         {
-            if (_universityRepository.UniversityExists(universityId))
-                return NotFound();
-
             if(updatedUniversity == null)
                 return BadRequest();
+
+            if (!_universityRepository.UniversityExists(universityId))
+                return NotFound();
 
             if(updatedUniversity.Id != universityId)
                 return BadRequest();
@@ -154,7 +156,7 @@ namespace Kampus.Api.Controllers
 
             foreach(var professorToDelete in professorsEntities)
             {
-                professorsEntities.Add(professorToDelete);
+                professorsToDelete.Add(professorToDelete);
                 reviewsToDelete.AddRange(_professorRepository.GetAllProfessorReviews(professorToDelete.Id));
             }
 
