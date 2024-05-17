@@ -113,7 +113,7 @@ namespace Kampus.Api.Controllers
             if (!_professorRepository.CreateProfessor(professorMap))
                 return BadRequest();
 
-            return Ok(professorMap);
+            return Ok();
         }
 
         [HttpPut]
