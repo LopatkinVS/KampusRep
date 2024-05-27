@@ -1,8 +1,7 @@
 ﻿using Kampus.Data;
-using Kampus.Data.Interfaces;
+using Kampus.Data.Abstract;
 using Kampus.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System.Runtime.CompilerServices;
 
 namespace Kampus.Api.Extensions
 {
@@ -16,7 +15,7 @@ namespace Kampus.Api.Extensions
             services.AddDbContext<KampusContext>(options =>
                 options.UseNpgsql(KampusDB, b => b.MigrationsAssembly("Kampus.Api")));
 
-            services.AddScoped<IProfessorRepository, ProfessorRepository>();
+            services.AddScoped<IProfesorRepository, ProfessorRepository>();
             services.AddScoped<IReviewRepository, ReviewRepository>();
             services.AddScoped<IUniversityRepository, UniversityRepository>();
             services.AddScoped<IUserRepository, UserRepository>();

@@ -1,6 +1,8 @@
-﻿namespace Kampus.Model.Entities
+﻿using Kampus.Model.Abstract;
+
+namespace Kampus.Model.Entities
 {
-    public class Review
+    public class Review : IEntityBase
     {
         public int Id { get; set; }
         public string Title { get; set; }

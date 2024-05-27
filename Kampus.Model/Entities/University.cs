@@ -1,6 +1,8 @@
-﻿namespace Kampus.Model.Entities
+﻿using Kampus.Model.Abstract;
+
+namespace Kampus.Model.Entities
 {
-    public class University
+    public class University : IEntityBase
     {
         public int Id { get; set; }
         public string Name { get; set; }
