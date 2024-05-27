@@ -1,4 +1,6 @@
-﻿using Kampus.Data;
+﻿using Kampus.BI.Interfaces;
+using Kampus.BI.Services;
+using Kampus.Data;
 using Kampus.Data.Abstract;
 using Kampus.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +20,15 @@ namespace Kampus.Api.Extensions
             services.AddScoped<IProfesorRepository, ProfessorRepository>();
             services.AddScoped<IReviewRepository, ReviewRepository>();
             services.AddScoped<IUniversityRepository, UniversityRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+
+            return services;
+        }
+
+        public static IServiceCollection AddBusinessServices(this IServiceCollection services,
+            IConfiguration configuration)
+        {
+            services.AddScoped<IContentService, ContentService>();
             services.AddScoped<IUserRepository, UserRepository>();
 
             return services;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UzgRvYLxjP/892pkiGPZgu/fVXQaaRCrHvnBl28/cEsZC4ZvrFA4Uiee4fEsOnIWRGqCIDaIDC+RuFLYQkKoqg==",
+  "dgSpecHash": "CneiWCIo1R/IcAyZCHeDf8SBdjnV5Hi368KDUAOUt11VdFI9UqRfs/7VB+V4/3qcWb/ssNEbdiXA1qi4//Ay8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\thebr\\source\\repos\\Kampus\\Kampus.Api\\Kampus.Api.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\thebr\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\thebr\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\thebr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\thebr\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\thebr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\thebr\\.nuget\\packages\\microsoft.codedom.providers.dotnetcompilerplatform\\4.1.0\\microsoft.codedom.providers.dotnetcompilerplatform.4.1.0.nupkg.sha512",
     "C:\\Users\\thebr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

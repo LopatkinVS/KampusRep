@@ -31,6 +31,11 @@ namespace Kampus.Data.Repositories
             return _context.Set<T>().Where(v => v.Id == id).FirstOrDefault();
         }
 
+        public T GetSingle(string name)
+        {
+            return _context.Set<T>().Where(v => v.Name == name).FirstOrDefault();
+        }
+
         public void Create(T entity)
         {
             _context.Set<T>().Add(entity);

@@ -8,6 +8,7 @@ namespace Kampus.Data.Abstract
         IEnumerable<T> GetAll();
         int Count();
         T GetSingle(int id);
+        T GetSingle(string name);
         void Create(T entity);
         void Update(T entity);
         void Delete(T entity);

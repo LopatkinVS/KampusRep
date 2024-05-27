@@ -15,10 +15,15 @@ builder.Services.AddControllers().AddJsonOptions(x =>
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+}
+);
 
 // Добавляем свои расширения сервисов приложения
 builder.Services.AddRepositories(builder.Configuration);
+builder.Services.AddBusinessServices(builder.Configuration);
 
 var app = builder.Build();
 
