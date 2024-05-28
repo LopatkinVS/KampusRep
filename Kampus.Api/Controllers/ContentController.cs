@@ -4,12 +4,12 @@ using Kampus.BI.Interfaces;
 using Kampus.Model.Entities;
 using Kampus.Model.Entities.Dto;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 
 namespace Kampus.Api.Controllers
 {
     [ApiController]
     [ApiVersion("1.0")]
-    [Route("api/[controller]/[action]")]
     public class ContentController : BaseApiController
     {
         private readonly IContentService _contentService;
@@ -113,6 +113,109 @@ namespace Kampus.Api.Controllers
             {
                 _contentService.DeleteUniversity(universityId);
                 
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public IActionResult GetProfessors()
+        {
+            try
+            {
+                var professors = _contentService.GetProfessors();
+
+                return Ok(professors);
+            }
+            catch 
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public IActionResult GetProfessor([FromQuery] int professorId)
+        {
+            try
+            {
+                var professor = _contentService.GetProfessor(professorId);
+
+                return Ok(professor);
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public IActionResult GetProfessorReview([FromQuery] int professorId)
+        {
+            try
+            {
+                var reviews = _contentService.GetProfessorReviews(professorId);
+
+                return Ok(reviews);
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpPost]
+        [Route("[action]")]
+        public IActionResult CreateProfessor([FromQuery] string universityName,
+            [FromQuery] ProfessorDto createdProfessor)
+        {
+            try
+            {
+                var professorMap = _mapper.Map<Professor>(createdProfessor);
+
+                professorMap.University = _contentService.GetUniversity(universityName);
+                _contentService.CreateProfessor(professorMap);
+
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+        
+        [HttpPut]
+        [Route("[action]")]
+        public IActionResult UpdateProfessor([FromQuery] string universityName,
+            [FromQuery] ProfessorDto updatedProfessor)
+        {
+            try
+            {
+                var professorMap = _mapper.Map<Professor>(updatedProfessor);
+                professorMap.University = _contentService.GetUniversity(universityName);
+                _contentService.UpdateProfessor(professorMap);
+
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpDelete]
+        [Route("[action]")]
+        public IActionResult DeleteProfessor([FromQuery] int professorId)
+        {
+            try
+            {
+                _contentService.DeleteProfessor(professorId);
+
                 return Ok();
             }
             catch

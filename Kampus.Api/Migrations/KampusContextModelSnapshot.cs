@@ -34,12 +34,12 @@ namespace Kampus.Api.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("LastName")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("Raiting")
-                        .HasColumnType("integer");
+                    b.Property<float>("Raiting")
+                        .HasColumnType("real");
 
                     b.Property<int>("UniversityId")
                         .HasColumnType("integer");
@@ -66,15 +66,15 @@ namespace Kampus.Api.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<int>("ProfessorId")
                         .HasColumnType("integer");
 
                     b.Property<int>("Rank")
                         .HasColumnType("integer");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.Property<int>("UserId")
                         .HasColumnType("integer");
@@ -113,11 +113,7 @@ namespace Kampus.Api.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("LastName")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 

@@ -15,6 +15,7 @@ namespace Kampus.BI.Interfaces
         void CreateProfessor(Professor professor);
         void UpdateProfessor(Professor professor);
         void DeleteProfessor(int professorId);
+        void CountProfessorRating(int professorId);
         Professor GetProfessor(int professorId);
         Professor GetProfessor(string professorName);
         List<Professor> GetProfessors();

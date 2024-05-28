@@ -12,6 +12,7 @@ namespace Kampus.BI.Interfaces
         void DeleteReview(int reviewId);
         User GetUser(int userId);
         List<User> GetUsers();
+        List<Review> GetUserReviews(int userId);
         Review GetReview(int reviewId);
     }
 }

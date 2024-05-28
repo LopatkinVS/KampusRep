@@ -2,6 +2,7 @@
 using Kampus.Data.Abstract;
 using Kampus.Model.Entities;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Routing.Constraints;
 using System.Reflection.Metadata.Ecma335;
 
 namespace Kampus.BI.Services
@@ -46,6 +47,8 @@ namespace Kampus.BI.Services
             _universityRepository.Delete(GetUniversity(universityId));
             _profsorRepository.DeleteRange(professorsToDelete);
             _reviewRepository.DeleteRange(ReviewToDelete);
+            _profsorRepository.Save();
+            _reviewRepository.Save();
             _universityRepository.Save();
         }
 
@@ -83,8 +86,24 @@ namespace Kampus.BI.Services
 
         public void DeleteProfessor(int professorId)
         {
+            var reviewsToDelete = GetProfessorReviews(professorId);
+
+            _reviewRepository.DeleteRange(reviewsToDelete);
             _profsorRepository.Delete(GetProfessor(professorId));
+            _reviewRepository.Save();
             _profsorRepository.Save();
+        }
+
+        public void CountProfessorRating(int professorId)
+        {
+            var professor = _profsorRepository.GetSingle(professorId);
+            var reviews = GetProfessorReviews(professorId);
+            float sum = 0;
+
+            foreach (var review in reviews)
+                sum += review.Rank;
+
+            professor.Raiting = sum /reviews.Count(); 
         }
 
         public Professor GetProfessor(int professorId)

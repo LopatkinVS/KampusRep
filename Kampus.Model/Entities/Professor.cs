@@ -7,7 +7,7 @@ namespace Kampus.Model.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public string FirstName { get; set; }
-        public int Raiting { get; set; }
+        public float Raiting { get; set; }
         public University University { get; set; }
         public ICollection<Review> Reviews { get; set; }
     }

@@ -9,11 +9,15 @@ namespace Kampus.BI.Services
     {
         private readonly IUserRepository _userRepository;
         private readonly IReviewRepository _reviewRepository;
+        private readonly IContentService _contentService;
 
-        public UserService(IUserRepository userRepository, IReviewRepository reviewRepository)
+        public UserService(IUserRepository userRepository, 
+            IReviewRepository reviewRepository,
+            IContentService contentService)
         {
             _userRepository = userRepository;
             _reviewRepository = reviewRepository;
+            _contentService = contentService;
         }
 
         public void CreateUser(User user)
@@ -26,6 +30,7 @@ namespace Kampus.BI.Services
         {
             _reviewRepository.Create(review);
             _reviewRepository.Save();
+            _contentService.CountProfessorRating(review.Professor.Id);
         }
 
         public void UpdateUser(User user)
@@ -38,6 +43,7 @@ namespace Kampus.BI.Services
         {
             _reviewRepository.Update(review);
             _reviewRepository.Save();
+            _contentService.CountProfessorRating(review.Professor.Id);
         }
 
         public void DeleteUser(int userId)
@@ -50,6 +56,7 @@ namespace Kampus.BI.Services
         {
             _reviewRepository.Delete(GetReview(reviewId));
             _reviewRepository.Save();
+            _contentService.CountProfessorRating(GetReview(reviewId).Professor.Id);
         }
 
         public User GetUser(int userId)
@@ -60,6 +67,11 @@ namespace Kampus.BI.Services
         public List<User> GetUsers()
         {
             return _userRepository.GetAll().ToList();
+        }
+
+        public List<Review> GetUserReviews(int userId)
+        {
+            return _userRepository.GetSingle(userId).Reviews.ToList();
         }
 
         public Review GetReview(int reviewId)
